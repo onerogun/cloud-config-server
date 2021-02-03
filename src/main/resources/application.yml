@@ -1,0 +1,19 @@
+server:
+  port: 9595
+
+spring:
+  application:
+    name: cluod-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/onerogun/cloudconfiguration
+          force-pull: true
+
+security:
+  user:
+    name: configUser
+    password: configPassword
+    role: SYSTEM
+
