@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cluod-config-server
+    name: cloud-config-server
   cloud:
     config:
       server:
